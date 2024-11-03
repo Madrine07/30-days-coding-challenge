@@ -1,4 +1,13 @@
-
+body{
+  background-color: lightgray;  
+  
+}
+.image2{
+  border-radius: 25px;
+  width: 27%;
+  height: 27%;
+  
+}
 ul{
     list-style-type: none;
     padding: 0;
@@ -9,8 +18,8 @@ li{
     float: left;
     padding: 14px 16px;
     list-style: none;
- 
 }
+
 .image1{
     border-radius: 50%;
     width: 50px;
@@ -20,7 +29,7 @@ li{
 }
 nav{
     background-color: #2e4053;
-    padding: 06px 12px;
+    padding: 04px 12px;
     display: flex;  
 }
 
@@ -43,4 +52,5 @@ nav:last-child{
     font-size: large;
     font-weight:bolder;
     font-style: oblique;
+    color: black;
 }
