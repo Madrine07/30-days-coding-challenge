@@ -46,26 +46,49 @@ nav:last-child{
 #name{
     margin: auto;
     padding-right: 50px;
-    font-size: large;
+    font-size: x-large;
     font-weight:bolder;
     font-style: oblique;
     color: lightgray;
 }
+.main-container{
+    display: flex;
+    align-items: flex-start;
+}
 .container {
-    display: flex;                  /* Use flexbox for layout */
-    align-items: center;       /* Align items to the start */
+    margin-top: 150px;
+    display: flex;  
+    flex-direction: column;
+    margin-left: 200px;
+
 }
 
 .image2 {
     margin-top: 20px;
-    margin-right: 250px; 
+    margin-right: 20px; 
     border-radius: 25px;
     width: 27%;
-    height: 27%;            /* Space between image and text */
+    height: 27%;
+
 }
 
 .text-container {
-    text-align: left;              /* Align text to the left */
+    text-align: left;             
+}
+.icons a{
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.icons {
+    display: flex;  
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px; 
+    margin-left: 01%; 
+    size: 30px;                   
 }
 
 .span1 {
@@ -78,12 +101,18 @@ nav:last-child{
 .career {
     font-size: xx-large;
     font-weight: bolder;
-    display: block;                /* Make career a block element */
-    margin-top: 5px;              /* Add space between the two lines */
+    display: block;               
+    margin-top: 5px;              
 }
 #alone{
     font-weight: bolder;
     color: #2e4053;
     font-size:xx-large;
+}
+.slogan{
+    font-style: italic;
+    font-size:large;
+    font-weight:550;
+    color: #567890;
 }
 
