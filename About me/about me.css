@@ -3,7 +3,8 @@ body{
 }
 nav{
     background-color: #2e4053;
-    display: flex;  
+    display: flex;
+     
 }
       
 a{
@@ -48,19 +49,16 @@ li{
 }
 
 .card {
-    position:relative;
-    width: 300px;
-    height: 400px;
+    position: relative;
+    width: 600px;
+    height: 450px;
     margin: 20px;
-    margin-left: 500px;
-    margin-top: 40px;
+    margin-right: 20%;
+    top:0%;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4); /* Light white shadow */
     transition: transform 0.3s ease-in-out;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .card:hover {
@@ -73,4 +71,20 @@ li{
     height: 100%;
     object-fit: cover; /* Ensure image covers the container */
     border-radius: 12px; /* Rounded corners for the image */
+}
+.container{
+    column-count: 2; /* Split content into 2 columns */
+    column-gap: 20px; /* Space between columns */
+    column-rule: none;
+    color: wheat;
+    padding-top: 2%;
+    font-size: large;
+    line-height: 150%;
+
+}
+.main container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
 }
